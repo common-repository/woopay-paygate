@@ -1,0 +1,59 @@
+/* Planet8 General */
+.p8-checkout-img {
+	text-align: center;
+	width: 100%;
+}
+
+.p8-checkout-img img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p8-checkout-txt {
+	text-align: center;
+	width: 100%;
+}
+
+.p8-chrome-msg {
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.p8-woopay-fixed-top{
+	position: fixed !important;
+	top: 0px !important;
+}
+
+#PG_PAYMENTWINDOW {
+	padding: 0 !important;
+}
+
+/* Payment Gateway Dependent */
+.p8-hide-scrollbar, html.p8-hide-scrollbar {
+	margin: 0 !important;
+	overflow: hidden !important;
+	height: 100%;
+}
+
+.p8-change-height, html.p8-change-height {
+	height: 1px !important;
+}
+
+.p8-modal-iframe {
+	vertical-align: top;
+}
+
+.pg-bank-select-container {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.pg-bank-select-form {
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
